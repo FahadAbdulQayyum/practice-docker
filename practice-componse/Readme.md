@@ -6,3 +6,9 @@
 4. Run `docker-compose build`. <!-- In case of already running, use docker-compose down -->
 5. Run `docker-compose up`.
 6. Checkout the `http://localhost:8080` - There you go.
+
+## For specifying the `.env` file
+
+```bash
+docker compose --env-file .env up -d
+```
